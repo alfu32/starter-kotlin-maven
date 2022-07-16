@@ -1,7 +1,7 @@
 package be.alfu32.kotlin.starter
 
 fun main(args: Array<String>){
-    println("it works with args")
+    println("it works with args ${args.toList()}")
     args.forEachIndexed {
         i,arg -> println("""arg[$i]='$arg'""")
     }
