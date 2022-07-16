@@ -10,6 +10,8 @@ fun main(args: Array<String>){
     val group = list.groupBy{
         v -> if(v%2 == 0){"even"}else{"odd"}
     }
+    val m = list.mapIndexed{ i,v -> "a=$v" }
+    println("""m=$m""")
     println("grouped list ${group}")
     println("""MyCalculator.sum($list) = ${c.sum(list)}""")
 }
