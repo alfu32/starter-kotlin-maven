@@ -22,7 +22,7 @@ jobs:
         cache: maven
     - name: test with maven
       run: |
-        mvn -Dargs=be.alfu32.kotlin.starter.*Test test
+        mvn -Dtest=*Test clean package test
         ls -la target/
     - name: Archive test report
       uses: actions/upload-artifact@v3
