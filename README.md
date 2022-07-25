@@ -1,6 +1,6 @@
 ### status
-![build](https://github.com/alfu32/klog/actions/workflows/build.yml/badge.svg)
-![test](https://github.com/alfu32/klog/actions/workflows/test.yml/badge.svg)
+![build](https://github.com/alfu32/starter-kotlin-maven/actions/workflows/build.yml/badge.svg)
+![test](https://github.com/alfu32/starter-kotlin-maven/actions/workflows/test.yml/badge.svg)
 
 # starter-maven-kotlin
 
