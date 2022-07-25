@@ -14,6 +14,6 @@ internal class DefaultTest {
   }
   @Test
   fun mainTest(){
-     MainKt().main(arrayOf(""))
+     main(arrayOf(""))
   }
 }
