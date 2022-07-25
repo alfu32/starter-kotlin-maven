@@ -7,4 +7,5 @@ internal class DefaultTest {
   @Test
   public fun defaultTest(){
     println("hello")
+  }
 }
