@@ -22,7 +22,7 @@ jobs:
         cache: maven
     - name: test with maven
       run: |
-        mvn test
+        mvn -Dargs=*Test test
         ls -la target/site/jacoco/
     - name: Archive test report
       uses: actions/upload-artifact@v3
