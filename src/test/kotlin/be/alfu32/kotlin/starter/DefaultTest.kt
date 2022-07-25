@@ -12,4 +12,8 @@ internal class DefaultTest {
     println("hello")
     assertEquals(1,1)
   }
+  @Test
+  fun mainTest(){
+     MainKt().main(arrayOf(""))
+  }
 }
