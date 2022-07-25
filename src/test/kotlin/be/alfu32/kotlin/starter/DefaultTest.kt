@@ -1,4 +1,4 @@
-package be.alfu32.kotlin
+package be.alfu32.kotlin.starter
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
