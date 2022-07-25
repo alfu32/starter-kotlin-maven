@@ -4,7 +4,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
-class MyCalculatorTest {
+internal class MyCalculatorTest {
 
     @Test
     fun testSum(){
