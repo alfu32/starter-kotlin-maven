@@ -22,7 +22,7 @@ jobs:
         cache: maven
     - name: test with maven
       run: |
-        mvn -Dtest=*Test clean package test
+        mvn -Dtest=*Test test
         ls -la target/
     - name: Archive test report
       uses: actions/upload-artifact@v3
